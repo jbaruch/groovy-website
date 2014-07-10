@@ -59,8 +59,8 @@ layout 'layouts/main.groovy', true,
                                     a(href: 'http://gvmtool.net', 'GVM (Groovy enVironment Manager)')
                                     yield ' to download and configure any Groovy version of your choice. Basic instructions can be found below.'
                                     yield 'Windows users can use '
-                                    a(href: 'http://gvmtool.net', 'Posh-GVM (POwerSHell Groovy enVironment Manager), a PowerShell clone of the GVM CLI')
-                                    yield '.'
+                                    a(href: 'http://gvmtool.net', 'Posh-GVM (POwerSHell Groovy enVironment Manager'))
+                                    yield ', a PowerShell clone of the GVM CLI.'
                                 }
                             }
                             hr(class: 'divider')
